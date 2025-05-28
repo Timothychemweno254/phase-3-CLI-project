@@ -18,7 +18,7 @@ Setup
 Clone the repository:
    ```bash
    git clone git@github.com:Timothychemweno254/phase-3-CLI-project.git
-   cd skill-tracker
+   cd app
 
    pipenv install sqlalchemy
 
