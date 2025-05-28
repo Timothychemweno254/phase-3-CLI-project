@@ -12,8 +12,11 @@ Installation
 Clone the repository:
 
 
-git clone https://github.com/yourusername/skill-tracker.git
+git clone https://github.com/Timothychemweno254/phase-3-CLI-project.git
+
 cd app
+
+
 
 Install dependencies:
 
