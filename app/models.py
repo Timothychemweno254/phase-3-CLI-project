@@ -32,7 +32,7 @@ class LearningLesson(Base):
     __tablename__ = 'learning_lessons'
 
     id = Column(Integer, primary_key=True)
-    date = Column(DateTime, default=datetime.utcnow)
+    date = Column(DateTime, default=datetime.utcnow, nullable=False)
     content = Column(Text, nullable=False)
     duration = Column(Integer, nullable=False) 
     notes = Column(Text, nullable=True)
